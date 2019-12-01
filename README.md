@@ -34,15 +34,25 @@ The main motive of this venture was to create a software that can help a visitor
 ### Home Page
 As the application will open, Home page will be shown as below. 
 
+![homepage](https://user-images.githubusercontent.com/33034833/69918426-ca9b1600-1497-11ea-9e68-004b7b945ed7.PNG)
+
 ### Host Registration
 A workplace can have more than one host. All the hosts would register as shown below. When the visitor will try to Check-IN, he/she needs to choose the host that they need to meet. 
+
+![hostpage](https://user-images.githubusercontent.com/33034833/69918429-cf5fca00-1497-11ea-86ef-1aa8e93ebfd1.PNG)
 
 ### Visitor Check In
 As the visitor opens the application, home page appears as shown below.
 The visitor can then go to the Check-IN option for his entry and can do so by filling the details in the form. All the details are mandatory and if all the details are valid, the form is submitted and the host is informed about the check in through sms and email.
 
+![checkinpage](https://user-images.githubusercontent.com/33034833/69918431-d4bd1480-1497-11ea-8934-8a85ad8196df.PNG)
+
 ### Visitor Check Out
+
 A seperate check out page has been created where the user is required to mention the same mobile number they entered during check in. If all details are valid, the user will be checked out and will be sent all details through email otherwise he will be asked to fill the details again.
+
+![checkoutpage](https://user-images.githubusercontent.com/33034833/69918434-dab2f580-1497-11ea-8250-d0c77aa9feca.PNG)
+
 
 ### Instructions to install
 
