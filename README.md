@@ -91,7 +91,7 @@ PASSWORD = Password of the email used (STRING)
 6. Start the server
 `npm start`
 
-Please refer to the link below, to know how the application works.
+### Please refer to the link below, to know how the application works.
 
 https://www.youtube.com/watch?v=13n0_iWtRsA
 
