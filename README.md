@@ -57,7 +57,7 @@ A seperate check out page has been created where the user is required to mention
 
 1. Clone this repository:
 
-`git clone 
+`git clone https://github.com/DeepeshKhubchandani/innovaccer_assignment_2019.git
 
 2. Change directory
 
