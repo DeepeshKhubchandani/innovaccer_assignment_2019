@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Entry Management</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css"
+    />
+    <link rel="stylesheet" href="/stylesheet/app.css" />
+  </head>
+  <body
+  style='background-color: #321F80;'>
+    <div class="ui fixed inverted menu" style="background-color: #E31C79">
+      <div class="ui container">
+        <div class="header item"><i class="code icon"></i>Innovacccer</div>
+        <a class="item" href="/">
+          Home
+        </a>
+        <a class="item" href="/register">
+          Register
+        </a>
+        <a class="item" href="/checkin">
+          Check-IN
+        </a>
+        <a class="item" href="/checkout">
+          Check-OUT
+        </a>
+      </div>
+    </div>
+    <div class="ui container blogBody loginForm">
+      <% if(error && error.length >0) { %>
+      <div class="ui warning message">
+        <div class="header"><%= error %></div>
+      </div>
+      <% } %> <% if(success && success.length > 0) { %>
+      <div class="ui success message">
+        <div class="header"><%= success %></div>
+      </div>
+      <% } %>
+      <h1 style="text-align:center;font-size:3em; color:#E31C79 ">Host Registration</h1>
+      <div class="ui raised segment">
+        <div style="margin:2%">
+          <form class="ui form" action="/register" method="POST">
+            <div class="field">
+              <label>Email</label>
+              <div class="ui right icon input">
+                <i class="mail icon"></i>
+                <input type="email" name="email" placeholder="Email" />
+              </div>
+            </div>
+            <div class="field">
+              <label>Name</label>
+              <div class="ui right icon input">
+                <i class="user icon"></i>
+                <input type="text" name="username" placeholder="Username" />
+              </div>
+            </div>
+
+            <div class="field">
+              <label>Phone</label>
+              <div class="ui right icon input">
+                <i class="phone icon"></i>
+                <input
+                  type="tel"
+                  name="contactNumber"
+                  placeholder="Contact Number"
+                  maxlength="10"
+                  required
+                />
+              </div>
+            </div>
+            <button class="ui button" style="background-color: #E31C79"  type="submit">Submit</button>
+          </form> 
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
