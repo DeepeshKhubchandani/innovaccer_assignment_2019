@@ -61,7 +61,7 @@ A seperate check out page has been created where the user is required to mention
 
 2. Change directory
 
-`cd 
+`cd innovaccer_assignment_2019
 
 3. Install dependencies
 
