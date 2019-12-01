@@ -15,8 +15,8 @@ The main motive of this venture was to create a software that can help a visitor
 -   NodeJS
 -   MongoDB
 -   ExpressJS
--  Twilio messaging API
--  NodeMailer email API
+-   Twilio messaging API
+-   NodeMailer email API
 -   EJS (npm package)
 -   HTML 5
 -   CSS 3
@@ -37,13 +37,12 @@ As the application will open, Home page will be shown as below.
 ![homepage](https://user-images.githubusercontent.com/33034833/69918426-ca9b1600-1497-11ea-9e68-004b7b945ed7.PNG)
 
 ### Host Registration
-A workplace can have more than one host. All the hosts would register as shown below. When the visitor will try to Check-IN, he/she needs to choose the host that they need to meet. 
+A workplace can have more than one host. All the hosts would register as shown below. When the visitor will try to Check-IN, he/she needs to choose the host that they need to meet. All the fields are mandatory. If the deatils are valid, host will be generated otherwise it will shown an error. For example, if the '@' is not present in the email then it will display an error for it.
 
 ![hostpage](https://user-images.githubusercontent.com/33034833/69918429-cf5fca00-1497-11ea-86ef-1aa8e93ebfd1.PNG)
 
 ### Visitor Check In
-As the visitor opens the application, home page appears as shown below.
-The visitor can then go to the Check-IN option for his entry and can do so by filling the details in the form. All the details are mandatory and if all the details are valid, the form is submitted and the host is informed about the check in through sms and email.
+As the visitor opens the application, home page appears as shown below. The visitor can then go to the Check-IN option for his entry and can do so by filling the details in the form. All the details are mandatory and if all the details are valid, the form is submitted and the host is informed about the check in through SMS and email. Here also the errors will be displayed accordingly. Moreover, if there is anything wrong in the email of the host then it will show an error "Host not found".
 
 ![checkinpage](https://user-images.githubusercontent.com/33034833/69918431-d4bd1480-1497-11ea-8934-8a85ad8196df.PNG)
 
