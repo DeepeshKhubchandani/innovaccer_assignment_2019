@@ -8,7 +8,7 @@ https://summergeeks.in/static/assignments/summergeeks%202020%20-%20SDE%20Assignm
 
 # Entry Management System
 
-The main motive of this venture was to create a software that can help a visitor check into an office without any kind of human intervention. The assignment aims at automating check in's and check out's at a workplace. As soon as the application is opened, the home page will appear. There can be multiple hosts at a workplace, the host can register by filling their details. The visitor needs to Check-IN by entering certain details such as name, email, contact number and email of the host. This will push an email and an SMS to the host, informing him about the details of the visitor. At the time of leaving the visitor needs to Check-OUT by entering email and contact number. This will push an email to the visitor about his Check-IN and Check-OUT time.
+The main motive of this venture was to create a software that can help a visitor check into an office without any kind of human intervention. The assignment aims at automating check in's and check out's at a workplace. As soon as the application is opened, the home page will appear. There can be multiple hosts at a workplace, the host can register by filling their details. The visitor needs to Check-IN by entering certain details such as name, email, contact number and email of the host that they wish to meet. This will push an email and an SMS to the host, informing him about the details of the visitor. At the time of leaving the visitor needs to Check-OUT by entering email and contact number. This will push an email to the visitor about his Check-IN and Check-OUT time.
 
 ### Technology Stack
 
