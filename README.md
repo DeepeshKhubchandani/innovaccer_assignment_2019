@@ -1,0 +1,98 @@
+# Innovaccer SummerGeeks SDE Assignment
+
+Innovaccer SummerGeeks submission by Deepesh Khubchandani.
+
+### Problem Statement
+
+https://summergeeks.in/static/assignments/summergeeks%202020%20-%20SDE%20Assignment.pdf
+
+# Entry Management System
+
+
+
+
+### Technology Stack
+
+-   NodeJS
+-   MongoDB
+-   ExpressJS
+-  Twilio messaging API
+-  NodeMailer email API
+-   EJS (npm package)
+-   HTML 5
+-   CSS 3
+-   JavaScript
+  
+  ## Implementation
+  
+  The application can be primarily used for the following three tasks:
+
+-   Registration of a new host
+-   Recording Visitor Check In
+-   Visitor Check Out
+### Home Page
+As the application will open, Home page will be shown as below. 
+
+### Host Registration
+A workplace can have more than one host. All the hosts would register as shown below. When the visitor will try to Check-IN, he/she needs to choose the host that they need to meet. 
+
+### Visitor Check In
+As the visitor opens the application, home page appears as shown below.
+The visitor can then go to the Check-IN option for his entry and can do so by filling the details in the form. All the details are mandatory and if all the details are valid, the form is submitted and the host is informed about the check in through sms and email.
+
+### Visitor Check Out
+A seperate check out page has been created where the user is required to mention the same mobile number they entered during check in. If all details are valid, the user will be checked out and will be sent all details through email otherwise he will be asked to fill the details again.
+
+  ### Instructions to install
+
+1, Clone this repository:
+
+`git clone 
+
+2, Change directory
+
+`cd 
+
+3, Install dependencies
+
+`npm install`
+
+4. Generate and Authentication Key, Sender ID and Phone Number for messaging api.
+
+Refer to this link -  https://www.twilio.com/
+
+5. Open Config.js file int the folder Conifg and add below mentioned details in it.
+```
+# specify your Twilio Authentication Key  here
+SMS_AUTH_KEY = Twilio Authentication Key
+
+# specify your Twilio Sender ID  here
+SMS_ACCOUNT_SID = Twilio Sender ID
+
+# specify your Twilio Phone Number  here
+SMS_NUMBER = Twilio Phone Number
+
+# specify credentials for nodemailer(email api) here, please enable less secure apps on gmail.
+
+EMAIL = Emain Address (STRING)
+PASSWORD = Password of the email used (STRING)
+
+```
+6, Start the server
+`npm start`
+
+Please refer to the link below, to know how the application works.
+
+https://www.youtube.com/watch?v=13n0_iWtRsA
+
+# Credits
+
+Created by: Deepesh Khubchandani
+
+Email: deepeshkhubchandani0145@gmail.com
+
+or
+
+Email: 17uec042@lnmiit.ac.in
+
+Contact: +919414490556
