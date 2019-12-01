@@ -2,7 +2,7 @@
 
 Innovaccer SummerGeeks submission by Deepesh Khubchandani.
 
-### Problem Statement
+# Problem Statement
 
 https://summergeeks.in/static/assignments/summergeeks%202020%20-%20SDE%20Assignment.pdf
 
