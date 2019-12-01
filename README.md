@@ -8,8 +8,7 @@ https://summergeeks.in/static/assignments/summergeeks%202020%20-%20SDE%20Assignm
 
 # Entry Management System
 
-
-
+The main motive of this venture was to create a software that can help a visitor check into an office without any kind of human intervention. The assignment aims at automating check in's and check out's at a workplace. As soon as the application is opened, the home page will appear. There can be multiple hosts at a workplace, the host can register by filling their details. The visitor needs to Check-IN by entering certain details such as name, email, contact number and email of the host. This will push an email and an SMS to the host, informing him about the details of the visitor. At the time of leaving the visitor needs to Check-OUT by entering email and contact number. This will push an email to the visitor about his Check-IN and Check-OUT time.
 
 ### Technology Stack
 
@@ -30,6 +29,8 @@ https://summergeeks.in/static/assignments/summergeeks%202020%20-%20SDE%20Assignm
 -   Registration of a new host
 -   Recording Visitor Check In
 -   Visitor Check Out
+
+
 ### Home Page
 As the application will open, Home page will be shown as below. 
 
@@ -43,17 +44,17 @@ The visitor can then go to the Check-IN option for his entry and can do so by fi
 ### Visitor Check Out
 A seperate check out page has been created where the user is required to mention the same mobile number they entered during check in. If all details are valid, the user will be checked out and will be sent all details through email otherwise he will be asked to fill the details again.
 
-  ### Instructions to install
+### Instructions to install
 
-1, Clone this repository:
+1. Clone this repository:
 
 `git clone 
 
-2, Change directory
+2. Change directory
 
 `cd 
 
-3, Install dependencies
+3. Install dependencies
 
 `npm install`
 
@@ -78,7 +79,7 @@ EMAIL = Emain Address (STRING)
 PASSWORD = Password of the email used (STRING)
 
 ```
-6, Start the server
+6. Start the server
 `npm start`
 
 Please refer to the link below, to know how the application works.
